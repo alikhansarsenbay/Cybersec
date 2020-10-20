@@ -1,0 +1,11 @@
+{
+  "name": "fisher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danil Ivanov <hoffffen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14"
+  }
+}
